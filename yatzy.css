@@ -1,0 +1,35 @@
+.graysquare {
+    border: solid black 1px;
+    background-color: lightgrey;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.whitesquare {
+    border: solid black 1px;
+    padding: 4px;
+}
+
+.whitesquareExtra {
+    font-size: 250%;
+    text-align: center;
+    border: solid black 1px;
+    padding: 4px;
+}
+
+.theTable {
+    border: solid black 1px;
+    border-collapse: collapse;
+}
+
+.theTable td {
+    text-align: center;
+}
+
+.theTable td:first-child {
+    text-align: left;
+}
+
+.emptyColumn {
+    padding: 20px;
+}

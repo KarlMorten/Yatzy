@@ -1,0 +1,15 @@
+let viewCode = 0;
+let numberOfPlayers = 0;
+let firstColumn = ['Deltakarar', 'Einarar', 'Toarar', 'Trearar', 'Firarar', 'Femmarar', 'Seksarar', 'Sum', 'Bonus', 'Eitt par', 'To par', 'Tre like', 'Fire like', 'Liten straight', 'Stor straight', 'Hus', 'Sjanse', 'Yatzy', 'Totalt'];
+let scoresheets = [];
+let playerNames = [];
+const specialRows = [0, 7, 8, 18];
+let maxNumberOfPlayers = 6;
+let theDices = ['⚀', '⚁', '⚂', '⚃', '⚄', '⚅'];
+let keptDices = [false, false, false, false, false]
+let diceValues = [1, 1, 1, 1, 1]
+let numberOfDices = 5;
+let madeThrows = 0;
+let playerToThrow = 0;
+let finishedRounds = 0;
+let overTheLine = [1, 2, 3, 4, 5, 6]                 
